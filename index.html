@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo CSS</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            font-family: sans-serif;
+        }
+
+        .vermelho{
+            background-color: red;
+        }
+
+        .verde{
+            background-color: green;
+        }
+        header{
+            height: 200px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .main1{
+            width: 40vw;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main2{
+            width: 30vw;
+            background-color: blue;
+        }
+
+        .main1-filha{
+            height: 50vh;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main1">
+            <div class="main1-filha verde"></div>
+            <div class="main1-filha vermelho"></div>
+        </div>
+        <div class="main2"></div>
+    </header>
+     
+    
+</body>
+</html>
+
+
+
